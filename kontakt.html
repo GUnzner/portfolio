@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <title>Grits Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Grits Portfolio</h1>
+        <nav>
+            <a href="index.html">Homepage</a>
+            <a href="projekte.html">Projekte</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Kontakt</h2>
+        <form class="form-container">
+            <label for="anrede">Anrede:</label>
+            <select id="anrede" name="anrede" required>
+                <option value="Herr">Herr</option>
+                <option value="Frau">Frau</option>
+                <option value="Divers">Divers</option>
+            </select>
+            <br>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">E-Mail:</label><br>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Nachricht:</label><br>
+            <textarea id="message" name="message" rows="8" cols="50" required></textarea>
+            <br>
+            <button type="submit">Absenden</button>
+        </form>
+    </main>
+    <footer>
+        <p> 2025 Grit Unzner</p>    
+    </footer>
+</body>
+</html>
