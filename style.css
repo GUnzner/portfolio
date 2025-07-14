@@ -17,8 +17,8 @@ footer {
 }
 
 h2 {
-    margin-top: 5%;
-    margin-bottom: 2%;
+    margin-top: 4%;
+    margin-bottom: 1%;
     text-align: center;
 }
 
@@ -26,7 +26,6 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
 }
 
 .form-container {
@@ -36,8 +35,6 @@ h2 {
     margin: 0 auto;
     padding: 20px;
     background-color: rgb(40, 21, 133);
-   /* border-radius: 8px;*/
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     align-items: center;
     justify-content: center;
 }
@@ -48,4 +45,37 @@ h2 {
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+
+.project-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 40%; 
+}
+
+.project-item p {
+    flex: 1;
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin-right: 10%;
+}
+
+.input, textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label, button {
+    margin: 2%;
 }
